@@ -1,4 +1,4 @@
-public class car extends Vehicle {
+public class carz extends Vehicle {
     private String model;
 
     // Constructor
