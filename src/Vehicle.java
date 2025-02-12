@@ -1,34 +1,32 @@
+// Vehicle.java
 public class Vehicle {
-    private String type;
     private int speed;
 
     // Constructor
-    public Vehicle(String type) {
-        this.type = type;
+    public Vehicle() {
         this.speed = 0;
     }
 
     // Accelerate the vehicle
     public void accelerate(int increment) {
         speed += increment;
-        System.out.println(type + " is accelerating. Current speed: " + speed + " km/h");
+        System.out.println("Car is accelerating. Current speed: " + speed + " km/h");
     }
 
     // Decelerate the vehicle
     public void decelerate(int decrement) {
         speed -= decrement;
         if (speed < 0) speed = 0;
-        System.out.println(type + " is decelerating. Current speed: " + speed + " km/h");
+        System.out.println("Car is decelerating. Current speed: " + speed + " km/h");
     }
 
-    // Stop the vehicle
-    public void stop() {
-        speed = 0;
-        System.out.println(type + " has stopped. Current speed: " + speed + " km/h");
+    // Honk the horn
+    public void honk() {
+        System.out.println("Car is honking! Beep Beep!");
     }
 
-    // Get current speed
-    public int getSpeed() {
-        return speed;
+    // Park the car
+    public void park() {
+        System.out.println("Car is parked.");
     }
 }

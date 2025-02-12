@@ -1,18 +1,13 @@
+// Main.java
 public class Main {
     public static void main(String[] args) {
-        // Create a Car object
-        Car myCar = new Car("Toyota Corolla");
+        // Create a Vehicle object
+        Vehicle myCar = new Vehicle();
 
-        // Test Car functionality
-        myCar.displayDetails();
-        myCar.accelerate(50);
-        myCar.honk();
-        myCar.decelerate(20);
-        myCar.stop();
-
-        // Test Parking functionality
-        Parking parkingLot = new Parking("Downtown Parking");
-        parkingLot.parkVehicle(myCar);
-        parkingLot.unparkVehicle(myCar);
+        // Test the functionality
+        myCar.accelerate(50); // Accelerate by 50 km/h
+        myCar.honk();         // Honk the horn
+        myCar.decelerate(20);  // Decelerate by 20 km/h
+        myCar.park();          // Park the car
     }
 }
