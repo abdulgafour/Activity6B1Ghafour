@@ -14,5 +14,5 @@ Things we're looking for:
 
 -- done with:
 1. Issues (making and putting them on done)
-2. a repo with code ( taken a already made simple vechile implemented function from my local projects )
-3. commited - pushed - merged a pull request
+2. a repo with code ( taken a already made simple vechile implemented parent class from my local projects )
+3. commited - pushed - merged a pull request , and finally updated the board of issues with the updated status of the task.
